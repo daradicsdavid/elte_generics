@@ -26,7 +26,7 @@ public class BoundedGenericFunctions {
         return sum;
     }
 
-    public static <T extends Number> T sum(T[] array) {
+    public static <T extends Number  /* & Comparable & MadeUpInterface */> T sum(T[] array) {
         Double sum = 0.;
         for (T i : array) {
             sum += i.doubleValue();
