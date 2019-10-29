@@ -1,5 +1,6 @@
 package elte.the_solution_2.utils;
 
+
 public class CompiledNumberList {
     protected final Integer[] elements;
     protected int i;
