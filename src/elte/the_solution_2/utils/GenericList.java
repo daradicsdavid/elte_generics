@@ -17,5 +17,4 @@ public class GenericList<T> {
     public T get(Integer i) {
         return elements[i];
     }
-
 }

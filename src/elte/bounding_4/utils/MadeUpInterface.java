@@ -1,4 +1,4 @@
-package elte.generic_methods_3.utils;
+package elte.bounding_4.utils;
 
 public interface MadeUpInterface {
 
